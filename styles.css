@@ -44,38 +44,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-@media only screen and (max-width: 767px) {
-    #desktopBG {
-        display: none;
-    }
-
-    #mobileBG {
-        display: block;
-    }
-
-    .faq-container {
-        width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .heading {
-        font-size: 20px; 
-    }
-
-    .header-container img {
-        width: 20px; 
-    }
-
-    h2.question {
-        font-size: 14px; 
-    }
-
-    p {
-        font-size: 12px; 
-    }
-}
-
 .faq-container {
     max-width: 600px;
     margin: -110px auto;
